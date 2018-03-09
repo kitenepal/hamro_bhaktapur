@@ -1,19 +1,258 @@
 <!DOCTYPE html>
 <html>
-<head>
-		<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hamro Bhaktapur</title>
-    <link rel="icon" href="">
-    <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/kitenepal/css/kitenepal.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Hamro Bhaktapur</title>
+  <link rel="icon" href="">
+  <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/kitenepal/css/kitenepal.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="text-left">
+            <span>Call Us: +01 5677896</span>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-google-plus"></i>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="text-right">
+            <span>Sign In</span>
+            <span>Sign Up</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="row">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">LOGO & NAME</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <!-- Full Page Image Background Carousel Header -->
+  <div id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- Wrapper for Slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <!-- Set the first background image using inline CSS below. -->
+        <div class="fill" style="background-image:url('http://www.marchettidesign.net/demo/optimized-bootstrap/code.jpg');"></div>
+        <div class="carousel-caption">
+          <h2 class="animated fadeInLeft">Caption Animation</h2>
+          <p class="animated fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+          <p class="animated fadeInUp"><a href="#" class="btn btn-transparent btn-rounded btn-large">Learn More</a></p>
+        </div>
+      </div>
+      <div class="item">
+        <!-- Set the second background image using inline CSS below. -->
+        <div class="fill" style="background-image:url('http://www.marchettidesign.net/demo/optimized-bootstrap/conference.jpg');"></div>
+        <div class="carousel-caption">
+          <h2 class="animated fadeInDown">Caption Animation</h2>
+          <p class="animated fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+          <p class="animated fadeInUp"><a href="#" class="btn btn-transparent btn-rounded btn-large">Learn More</a></p>
+        </div>
+      </div>
+      <div class="item">
+        <!-- Set the third background image using inline CSS below. -->
+        <div class="fill" style="background-image:url('http://www.marchettidesign.net/demo/optimized-bootstrap/campus.jpg');"></div>
+        <div class="carousel-caption">
+          <h2 class="animated fadeInRight">Caption Animation</h2>
+          <p class="animated fadeInRight">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+          <p class="animated fadeInRight"><a href="#" class="btn btn-transparent btn-rounded btn-large">Learn More</a></p>
+        </div>
+      </div>
+    </div>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="icon-prev"></span>
+  </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="icon-next"></span>
+  </a>
+  </div>
+  <section class="products">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <div class="nav-side-menu">
+            <div class="brand">Categories</div>
+            <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+            <div class="menu-list">
+              <ul id="menu-content" class="menu-content collapse out">
+                <li class="text-center">
+                  <a href="#">
+                    <i class="fa fa-dashboard fa-lg"></i> 
+                    <p>Books</p>
+                    </a>
+                </li>
+                <li data-toggle="collapse" data-target="#products" class="collapsed active text-center">
+                  <a href="#"><i class="fa fa-gift fa-lg"></i> 
+                    <p>Computer Accesories</p> <span class="arrow"></span></a>
+                </li>
+                <ul class="sub-menu collapse" id="products">
+                  <li class="active"><a href="#">Keyboard</a></li>
+                  <li><a href="#">Mouse</a></li>
+                  <li><a href="#">Hard Drives</a></li>
+                  <li><a href="#">Graphics Card</a></li>
+                  <li><a href="#">Monitor</a></li>
+                  <li><a href="#">Processor</a></li>
+                </ul>
+                <li data-toggle="collapse" data-target="#service" class="text-center collapsed">
+                  <a href="#"><i class="fa fa-globe fa-lg"></i>
+                  <p>Cosmetic</p> <span class="arrow"></span></a>
+                </li>
+                <ul class="sub-menu collapse" id="service">
+                  <li>New Service 1</li>
+                  <li>New Service 2</li>
+                  <li>New Service 3</li>
+                </ul>
+                <li data-toggle="collapse" data-target="#new" class="text-center collapsed">
+                  <a href="#"><i class="fa fa-car fa-lg"></i> <p>DVD's &amp; CD's</p> <span class="arrow"></span></a>
+                </li>
+                <ul class="sub-menu collapse" id="new">
+                  <li>New New 1</li>
+                  <li>New New 2</li>
+                  <li>New New 3</li>
+                </ul>
+                <li class="text-center">
+                  <a href="#">
+                    <i class="fa fa-user fa-lg"></i> <p>Groceries</p>
+                    </a>
+                </li>
+                <li class="text-center">
+                  <a href="#">
+                    <i class="fa fa-users fa-lg"></i> <p>Health Care &amp; Medicines</p>
+                    </a>
+                </li>
+                <li class="text-center">
+                  <a href="#">
+                    <i class="fa fa-users fa-lg"></i> <p>Liquor</p>
+                    </a>
+                </li>
+                <li class="text-center">
+                  <a href="#">
+                    <i class="fa fa-users fa-lg"></i> <p>Mobile</p>
+                    </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-10">
+            <div class="row">
+              <div class="col-md-3">
+                <p class="pull-right"><i class="fa fa-plus-circle"></i> | <i class="fa fa-heart"></i></p>
+                <img src="https://images.unsplash.com/photo-1489257900339-13e688fb85fd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=afa97002e234fb65bd681dc93e3673a0&auto=format&fit=crop&w=1500&q=80" width="100%">
+                <p>Wireless Keyboard/ Mouse</p>
+                <div class="col-md-6"><p>Rs 1000</p></div>
+                <div class="col-md-6"><p class="pull-right">Buy Now</p></div>
+              </div>
+
+              <div class="col-md-3">
+                <p class="pull-right"><i class="fa fa-plus-circle"></i> | <i class="fa fa-heart"></i></p>
+                <img src="https://images.unsplash.com/photo-1489257900339-13e688fb85fd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=afa97002e234fb65bd681dc93e3673a0&auto=format&fit=crop&w=1500&q=80" width="100%">
+                <p>Wireless Keyboard/ Mouse</p>
+                <div class="col-md-6"><p>Rs 1000</p></div>
+                <div class="col-md-6"><p class="pull-right">Buy Now</p></div>
+              </div>
+
+              <div class="col-md-3">
+                <p class="pull-right"><i class="fa fa-plus-circle"></i> | <i class="fa fa-heart"></i></p>
+                <img src="https://images.unsplash.com/photo-1489257900339-13e688fb85fd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=afa97002e234fb65bd681dc93e3673a0&auto=format&fit=crop&w=1500&q=80" width="100%">
+                <p>Wireless Keyboard/ Mouse</p>
+                <div class="col-md-6"><p>Rs 1000</p></div>
+                <div class="col-md-6"><p class="pull-right">Buy Now</p></div>
+              </div>
+
+              <div class="col-md-3">
+                <p class="pull-right"><i class="fa fa-plus-circle"></i> | <i class="fa fa-heart"></i></p>
+                <img src="https://images.unsplash.com/photo-1489257900339-13e688fb85fd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=afa97002e234fb65bd681dc93e3673a0&auto=format&fit=crop&w=1500&q=80" width="100%">
+                <p>Wireless Keyboard/ Mouse</p>
+                <div class="col-md-6"><p>Rs 1000</p></div>
+                <div class="col-md-6"><p class="pull-right">Buy Now</p></div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3">
+                <p class="pull-right"><i class="fa fa-plus-circle"></i> | <i class="fa fa-heart"></i></p>
+                <img src="https://images.unsplash.com/photo-1489257900339-13e688fb85fd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=afa97002e234fb65bd681dc93e3673a0&auto=format&fit=crop&w=1500&q=80" width="100%">
+                <p>Wireless Keyboard/ Mouse</p>
+                <div class="col-md-6"><p>Rs 1000</p></div>
+                <div class="col-md-6"><p class="pull-right">Buy Now</p></div>
+              </div>
+
+              <div class="col-md-3">
+                <p class="pull-right"><i class="fa fa-plus-circle"></i> | <i class="fa fa-heart"></i></p>
+                <img src="https://images.unsplash.com/photo-1489257900339-13e688fb85fd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=afa97002e234fb65bd681dc93e3673a0&auto=format&fit=crop&w=1500&q=80" width="100%">
+                <p>Wireless Keyboard/ Mouse</p>
+                <div class="col-md-6"><p>Rs 1000</p></div>
+                <div class="col-md-6"><p class="pull-right">Buy Now</p></div>
+              </div>
+
+              <div class="col-md-3">
+                <p class="pull-right"><i class="fa fa-plus-circle"></i> | <i class="fa fa-heart"></i></p>
+                <img src="https://images.unsplash.com/photo-1489257900339-13e688fb85fd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=afa97002e234fb65bd681dc93e3673a0&auto=format&fit=crop&w=1500&q=80" width="100%">
+                <p>Wireless Keyboard/ Mouse</p>
+                <div class="col-md-6"><p>Rs 1000</p></div>
+                <div class="col-md-6"><p class="pull-right">Buy Now</p></div>
+              </div>
+
+              <div class="col-md-3">
+                <p class="pull-right"><i class="fa fa-plus-circle"></i> | <i class="fa fa-heart"></i></p>
+                <img src="https://images.unsplash.com/photo-1489257900339-13e688fb85fd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=afa97002e234fb65bd681dc93e3673a0&auto=format&fit=crop&w=1500&q=80" width="100%">
+                <p>Wireless Keyboard/ Mouse</p>
+                <div class="col-md-6"><p>Rs 1000</p></div>
+                <div class="col-md-6"><p class="pull-right">Buy Now</p></div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="js/hero.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
+
 </html>
