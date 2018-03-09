@@ -1,0 +1,16 @@
+.searchbar{
+	background-color: $primary-color;
+	padding-top: 12px;
+	span{
+		color: white !important;
+	}
+	.filter{
+		margin: 0px 5px;
+	}
+	.advance{
+		margin: 0px 5px;
+	}
+	input{
+		width: 50%;
+	}
+}

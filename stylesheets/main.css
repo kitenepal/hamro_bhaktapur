@@ -2,12 +2,66 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #edf5ff !important;
+  background-color: #f7faff !important;
+}
+
+/* line 1, ../sass/module/_topbar.scss */
+.topbar {
+  padding: 10px 0px;
+}
+/* line 3, ../sass/module/_topbar.scss */
+.topbar .callus {
+  margin-left: 0px;
+  font-size: 16px;
+}
+/* line 7, ../sass/module/_topbar.scss */
+.topbar .fa {
+  margin: 0px 8px;
+}
+/* line 10, ../sass/module/_topbar.scss */
+.topbar .signin, .topbar .signup {
+  background-color: #b70909;
+  padding: 20px;
+  color: white;
 }
 
 /* line 1, ../sass/module/_navbar.scss */
 .navbar {
   margin: 0px !important;
+  border: 0px !important;
+  background-color: #ededed !important;
+}
+
+/* line 7, ../sass/module/_navbar.scss */
+nav {
+  border-radius: 0px !important;
+}
+
+/* line 15, ../sass/module/_navbar.scss */
+.navbar-brand {
+  margin-left: 0px !important;
+}
+
+/* line 1, ../sass/module/_searchbar.scss */
+.searchbar {
+  background-color: #b70909;
+  padding-top: 12px;
+}
+/* line 4, ../sass/module/_searchbar.scss */
+.searchbar span {
+  color: white !important;
+}
+/* line 7, ../sass/module/_searchbar.scss */
+.searchbar .filter {
+  margin: 0px 5px;
+}
+/* line 10, ../sass/module/_searchbar.scss */
+.searchbar .advance {
+  margin: 0px 5px;
+}
+/* line 13, ../sass/module/_searchbar.scss */
+.searchbar input {
+  width: 50%;
 }
 
 /* line 1, ../sass/module/_hero.scss */
@@ -342,6 +396,7 @@ p {
   color: red;
 }
 
+
 /* line 32, ../sass/module/_product.scss */
 #heart {
   display: none;
@@ -349,4 +404,23 @@ p {
 /* line 34, ../sass/module/_product.scss */
 #heart:checked + label {
   color: red;
+}
+/* line 1, ../sass/module/_books.scss */
+.books {
+  background-color: white;
+  height: auto;
+  padding: 10px 0px;
+}
+/* line 5, ../sass/module/_books.scss */
+.books h2 {
+  border-bottom: 2px solid #cccccc;
+  padding: 10px 0px;
+  margin-bottom: 30px !important;
+}
+
+/* line 1, ../sass/module/_footer.scss */
+.copyright {
+  background-color: #b70909;
+  padding-top: 10px;
+  color: white;
 }
