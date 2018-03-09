@@ -18,13 +18,7 @@
 		padding-bottom: 0;
 		border-radius: 0;
 		.pull-right i{
-			color: pink;
-		}
-		.pull-right i:hover{
-			color: red;
-		}
-		.thumbnail-footer{
-			padding-top: 10px;
+			cursor: pointer;
 		}
 		.title{
 			padding-top: 15px;
@@ -32,5 +26,12 @@
 		.buy-now{
 			color: red;
 		}
+	}
+}
+
+#heart{
+	display: none;
+	&:checked+label{
+		color: red;
 	}
 }

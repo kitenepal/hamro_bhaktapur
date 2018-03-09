@@ -307,7 +307,7 @@ p {
   .nav-side-menu .menu-list .menu-content {
     display: block;
   }
-
+}
 /* line 2, ../sass/module/_product.scss */
 .product--detail {
   background-color: #e9e9e9;
@@ -331,21 +331,22 @@ p {
 }
 /* line 20, ../sass/module/_product.scss */
 .releated-items .thumbnail .pull-right i {
-  color: pink;
+  cursor: pointer;
 }
 /* line 23, ../sass/module/_product.scss */
-.releated-items .thumbnail .pull-right i:hover {
-  color: red;
-}
-/* line 26, ../sass/module/_product.scss */
-.releated-items .thumbnail .thumbnail-footer {
-  padding-top: 10px;
-}
-/* line 29, ../sass/module/_product.scss */
 .releated-items .thumbnail .title {
   padding-top: 15px;
 }
-/* line 32, ../sass/module/_product.scss */
+/* line 26, ../sass/module/_product.scss */
 .releated-items .thumbnail .buy-now {
+  color: red;
+}
+
+/* line 32, ../sass/module/_product.scss */
+#heart {
+  display: none;
+}
+/* line 34, ../sass/module/_product.scss */
+#heart:checked + label {
   color: red;
 }
